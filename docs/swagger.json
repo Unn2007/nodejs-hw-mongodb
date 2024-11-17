@@ -11,7 +11,7 @@
   },
   "servers": [
     {
-      "url": "http://localhost:3000"
+      "url": "https://contacts-app-xfox.onrender.com"
     },
     {
       "url": "https://example.com/api/v1"
@@ -528,11 +528,6 @@
               "personal"
             ],
             "example": "work"
-          },
-          "userId": {
-            "description": "id of the user who owns the contact",
-            "type": "string",
-            "example": "example@mail.com"
           },
           "photo": {
             "description": "Link to contacts's photo",
