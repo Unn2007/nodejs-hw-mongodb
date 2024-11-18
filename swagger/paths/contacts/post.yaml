@@ -32,14 +32,10 @@ requestBody:
             type: boolean
             example: false
           contactType: 
-              description: "Contacts's name"
-              type: string
-              enum: ['work', 'home', 'personal']
-              example: 'work'  
-          userId:
-            description: "id of the user who owns the contact"
+            description: "Contacts's name"
             type: string
-            example: 'example@mail.com'
+            enum: ['work', 'home', 'personal']
+            example: 'work'  
           photo: 
             description: "Link to contacts's photo"
             type: string
