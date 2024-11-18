@@ -229,11 +229,6 @@
                     ],
                     "example": "work"
                   },
-                  "userId": {
-                    "description": "id of the user who owns the contact",
-                    "type": "string",
-                    "example": "example@mail.com"
-                  },
                   "photo": {
                     "description": "Link to contacts's photo",
                     "type": "string",
